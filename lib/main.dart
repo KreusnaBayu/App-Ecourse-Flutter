@@ -1,4 +1,5 @@
 import 'package:acourse/app_blocs.dart';
+import 'package:acourse/pages/signin/bloc/sigin_blocs.dart';
 import 'package:acourse/pages/signin/sign_in.dart';
 import 'package:acourse/pages/welcome/bloc/welcome_blocs.dart';
 import 'package:acourse/pages/welcome/welcome.dart';
@@ -26,6 +27,7 @@ class MyApp extends StatelessWidget {
           //lazy: false,
           create: (context) => AppBlocs(),
         ),
+        BlocProvider(create: (context)=>SignInBloc())
       ],
       child: ScreenUtilInit(
         builder: (context, child) =>  MaterialApp(

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "304317268768",
+    "project_id": "e-course-af394",
+    "storage_bucket": "e-course-af394.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304317268768:android:261bdb709c1247f9308d45",
+        "android_client_info": {
+          "package_name": "com.example.acourse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDv2l31VyTbNgpEbhdSDfPCeX2mcHpmKJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
